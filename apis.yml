@@ -1,8 +1,30 @@
 aid: auron-therapeutics
 name: Auron Therapeutics
-description: Auron Therapeutics is a company surfaced as a portfolio company of dcvc and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Auron Therapeutics is a clinical-stage biotechnology company headquartered
+  in Newton, Massachusetts, developing therapies that target cell-state plasticity
+  to address the underlying causes of disease across oncology and inflammatory disease
+  indications. The company built the AURIGIN platform, which integrates multi-omic
+  profiling and computational biology to map how cells change states and identify
+  those states that can be therapeutically targeted. Auron was founded by Dr. Katharine
+  Yen with co-founders Dr. Ross Levine, Dr. Eytan Stein, and Dr. Matthew Vander Heiden,
+  a team drawing on experience from Agios Pharmaceuticals and its FDA-approved IDH
+  inhibitor programs. It is backed by investors including Apollo, Arkin Bio, Casdin
+  Capital, and DCVC Bio. As a therapeutics company Auron publishes no public developer
+  API, documentation, or developer portal; this profile captures its corporate and
+  legal web presence only.
 url: https://raw.githubusercontent.com/api-evangelist/auron-therapeutics/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.aurontx.com/favicon.ico
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,12 +33,37 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Biotechnology
+- Pharmaceuticals
+- Oncology
+- Drug Discovery
+- Computational Biology
+- Life Sciences
+- Multi-omics
 apis: []
+common:
+- type: DomainSecurity
+  url: security/auron-therapeutics-domain-security.yml
+- type: Website
+  url: https://www.aurontx.com
+- type: About
+  url: https://www.aurontx.com/about
+- type: PrivacyPolicy
+  url: https://www.aurontx.com/legal/privacy-policy
+- type: TermsOfService
+  url: https://www.aurontx.com/legal/terms-of-use
+- type: LinkedIn
+  url: https://www.linkedin.com/company/auron-therapeutics/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
