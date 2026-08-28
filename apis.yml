@@ -13,6 +13,17 @@ description: Auron Therapeutics is a clinical-stage biotechnology company headqu
   API, documentation, or developer portal; this profile captures its corporate and
   legal web presence only.
 url: https://raw.githubusercontent.com/api-evangelist/auron-therapeutics/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
